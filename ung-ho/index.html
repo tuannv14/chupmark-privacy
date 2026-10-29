@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
+<meta name="robots" content="noindex">
+<title>Ủng hộ ChupMark · Support ChupMark</title>
+<meta name="description" content="Ủng hộ tự nguyện cho tác giả ChupMark qua VietQR hoặc Ko-fi. Optional, voluntary support for the developer of ChupMark via VietQR or Ko-fi.">
+<!--
+  TEMPLATE (docs/support-page/README.md): replace Techcombank, NGUYEN VIET TUAN (Nick Nguyen), 1903 5901 0800 10 and https://ko-fi.com/chupmark,
+  put vietqr.png next to this file, then publish as ung-ho/index.html in the public repo tuannv14/chupmark-privacy.
+  Static, self-contained page: no scripts, no fonts, no widgets, no styles from other servers; the only image is
+  vietqr.png from the same site.
+-->
+<style>
+  :root {
+    --bg: #f7f9fc; --surface: #ffffff; --text: #17202e; --muted: #556074; --line: #dde3ec;
+    --accent: #1478c8; --accent-soft: #e6f3fb; --chip: #eef2f7; --on-accent: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f141c; --surface: #161d28; --text: #e8edf4; --muted: #a3afc2; --line: #2a3442;
+      --accent: #5bb6f2; --accent-soft: #15283a; --chip: #1e2733; --on-accent: #0f141c;
+    }
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 16px/1.6 "Segoe UI", system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+  }
+  header, main, footer { max-width: 820px; margin: 0 auto; padding: 0 16px; }
+  header { display: flex; align-items: center; gap: 14px; padding-top: 32px; padding-bottom: 8px; }
+  header svg { width: 56px; height: 56px; flex: none; }
+  header h1 { font-size: 1.6rem; line-height: 1.2; margin: 0; }
+  header p { margin: 2px 0 0; color: var(--muted); font-size: .95rem; }
+  nav.lang { max-width: 820px; margin: 12px auto 0; padding: 0 16px; display: flex; gap: 8px; flex-wrap: wrap; }
+  nav.lang a {
+    display: inline-block; padding: 6px 14px; border-radius: 999px; background: var(--chip);
+    color: var(--text); text-decoration: none; font-weight: 600; font-size: .9rem;
+  }
+  nav.lang a:hover, nav.lang a:focus-visible { background: var(--accent-soft); color: var(--accent); outline: none; }
+  section.policy {
+    background: var(--surface); border: 1px solid var(--line); border-radius: 14px;
+    padding: 8px 24px 20px; margin: 20px 0;
+  }
+  h2 { font-size: 1.3rem; margin: 18px 0 4px; }
+  h3 { font-size: 1.05rem; margin: 22px 0 4px; }
+  p, li { color: var(--text); }
+  ul { padding-left: 1.25rem; }
+  li { margin: 4px 0; }
+  .summary { background: var(--accent-soft); border-radius: 10px; padding: 12px 16px; margin: 12px 0; }
+  .meta { color: var(--muted); font-size: .9rem; margin-top: 0; }
+  code { background: var(--chip); border-radius: 4px; padding: 1px 5px; font-size: .92em; overflow-wrap: anywhere; }
+  a { color: var(--accent); }
+  .qr { margin: 12px 0; }
+  .qr img {
+    display: block; width: 100%; max-width: 280px; height: auto;
+    background: #ffffff; border: 1px solid var(--line); border-radius: 12px; padding: 8px;
+  }
+  dl.account { display: grid; grid-template-columns: max-content 1fr; gap: 4px 16px; margin: 12px 0; }
+  dl.account dt { color: var(--muted); }
+  dl.account dd { margin: 0; font-weight: 600; overflow-wrap: anywhere; }
+  a.button {
+    display: inline-block; margin: 8px 0; padding: 10px 20px; border-radius: 999px;
+    background: var(--accent); color: var(--on-accent); font-weight: 600; text-decoration: none;
+  }
+  a.button:hover, a.button:focus-visible { filter: brightness(1.08); outline: 2px solid var(--accent); outline-offset: 2px; }
+  footer { color: var(--muted); font-size: .85rem; padding-bottom: 40px; }
+  @media (max-width: 520px) {
+    section.policy { padding: 4px 16px 16px; } header h1 { font-size: 1.35rem; }
+    dl.account { grid-template-columns: 1fr; gap: 0; } dl.account dd { margin-bottom: 6px; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <svg viewBox="0 0 1024 1024" role="img" aria-label="ChupMark logo">
+    <defs>
+      <linearGradient id="t" x1="0" y1="0" x2="1" y2="1">
+        <stop offset="0" stop-color="#12c2b0"/><stop offset=".55" stop-color="#1e93e6"/><stop offset="1" stop-color="#3a55ee"/>
+      </linearGradient>
+      <linearGradient id="m" gradientUnits="userSpaceOnUse" x1="385.13" y1="628.3" x2="644.16" y2="411.56">
+        <stop offset="0" stop-color="#ffae34"/><stop offset="1" stop-color="#ffda4d"/>
+      </linearGradient>
+    </defs>
+    <rect x="64" y="64" width="896" height="896" rx="201.6" fill="url(#t)"/>
+    <path fill="none" stroke="#fff" stroke-width="60.79" stroke-linecap="round" stroke-linejoin="round"
+      d="M247.68 406.27V247.68H406.27M617.73 247.68H776.32V406.27M776.32 617.73V776.32H617.73M406.27 776.32H247.68V617.73"/>
+    <path fill="none" stroke="url(#m)" stroke-width="105.73" stroke-linecap="round"
+      d="M385.13 628.3C459.14 554.29 522.57 459.14 644.16 411.56"/>
+  </svg>
+  <div>
+    <h1>Ủng hộ ChupMark</h1>
+    <p>Support ChupMark</p>
+  </div>
+</header>
+
+<nav class="lang" aria-label="Ngôn ngữ / Language">
+  <a href="#vi" hreflang="vi">Tiếng Việt</a>
+  <a href="#en" hreflang="en">English</a>
+</nav>
+
+<main>
+  <section class="policy" id="vi" lang="vi">
+    <h2>Ủng hộ tác giả</h2>
+
+    <div class="summary">
+      <strong>Tóm tắt:</strong> ChupMark miễn phí hoàn toàn, mọi tính năng đều mở. Nếu thấy hữu ích, bạn có thể tự
+      nguyện ủng hộ tác giả. Ủng hộ không mở khóa gì thêm và được gửi tới tác giả cá nhân, không phải Microsoft.
+    </div>
+
+    <h3>Vì sao có trang này?</h3>
+    <p>ChupMark là ứng dụng chụp, chú thích và quay màn hình miễn phí cho Windows, chạy hoàn toàn offline: không
+      quảng cáo, không theo dõi, không thu thập dữ liệu, không tài khoản. Ứng dụng do một nhà phát triển cá nhân làm và
+      duy trì. Nếu ChupMark giúp ích cho bạn, một khoản ủng hộ nhỏ giúp tác giả có thêm thời gian sửa lỗi, cập nhật và
+      cải thiện ứng dụng. Không ủng hộ cũng hoàn toàn không sao: bạn vẫn dùng đầy đủ mọi tính năng.</p>
+
+    <h3>Trong nước: VietQR</h3>
+    <p>Quét mã bằng app ngân hàng, MoMo hoặc ZaloPay; nội dung gợi ý: <code>Ung ho ChupMark</code>.</p>
+    <figure class="qr">
+      <img src="vietqr.png" alt="Mã VietQR chuyển khoản tới tài khoản NGUYEN VIET TUAN (Nick Nguyen), số 1903 5901 0800 10, ngân hàng Techcombank">
+    </figure>
+    <dl class="account">
+      <dt>Ngân hàng</dt><dd>Techcombank</dd>
+      <dt>Chủ tài khoản</dt><dd>NGUYEN VIET TUAN (Nick Nguyen)</dd>
+      <dt>Số tài khoản</dt><dd>1903 5901 0800 10</dd>
+      <dt>Nội dung</dt><dd>Ung ho ChupMark</dd>
+    </dl>
+    <p class="meta">Trước khi xác nhận, hãy kiểm tra tên chủ tài khoản hiện trong app ngân hàng hoặc ví khớp với
+      tên ở trên.</p>
+
+    <h3>Quốc tế: Ko-fi</h3>
+    <p>Nếu bạn ở ngoài Việt Nam, bạn có thể ủng hộ qua Ko-fi. Thanh toán do Ko-fi xử lý và được chuyển tới tác giả qua
+      PayPal, theo điều khoản và chính sách quyền riêng tư của Ko-fi và PayPal.</p>
+    <p><a class="button" href="https://ko-fi.com/chupmark" rel="noopener noreferrer">Ủng hộ qua Ko-fi</a></p>
+
+    <h3>Lưu ý</h3>
+    <ul>
+      <li>Ủng hộ hoàn toàn <strong>tự nguyện</strong>. ChupMark vẫn miễn phí và đầy đủ tính năng dù bạn có ủng hộ hay
+        không; ứng dụng không bao giờ nhắc bạn ủng hộ.</li>
+      <li>Ủng hộ <strong>không mở khóa gì thêm</strong>: không tính năng, không huy hiệu, không giao diện riêng, không
+        nội dung số nào được trao đổi.</li>
+      <li>Đây không phải hoạt động từ thiện hay quyên góp cho tổ chức nào. Tiền được gửi tới
+        <strong>tác giả cá nhân Nick Nguyen</strong>, không phải Microsoft; Microsoft không tham gia vào khoản ủng hộ
+        này.</li>
+      <li>Khoản ủng hộ không được khấu trừ thuế.</li>
+      <li>Bản thân ứng dụng ChupMark không kết nối Internet: nút &ldquo;Ủng hộ ChupMark&rdquo; trong trang Giới thiệu
+        chỉ mở trang này trong trình duyệt. Trang này không dùng script, cookie hay công cụ theo dõi.</li>
+    </ul>
+
+    <h3>Liên hệ</h3>
+    <p>Câu hỏi: <a href="mailto:imucyou@gmail.com">imucyou@gmail.com</a> &middot;
+      <a href="../">Chính sách quyền riêng tư của ChupMark</a></p>
+  </section>
+
+  <section class="policy" id="en" lang="en">
+    <h2>Support the developer</h2>
+
+    <div class="summary">
+      <strong>In short:</strong> ChupMark is completely free and every feature is unlocked. If you find it useful,
+      you can voluntarily support the developer. Support unlocks nothing extra and goes to the individual developer,
+      not Microsoft.
+    </div>
+
+    <h3>Why this page?</h3>
+    <p>ChupMark is a free screenshot, annotation and screen recording app for Windows that works fully offline: no
+      ads, no tracking, no data collection, no account. It is made and maintained by an individual developer. If
+      ChupMark is useful to you, a small contribution gives the developer more time to fix bugs, ship updates and
+      improve the app. Not supporting is perfectly fine too: you keep every feature.</p>
+
+    <h3>In Vietnam: VietQR</h3>
+    <p>Scan the code with a Vietnamese banking app, MoMo or ZaloPay; suggested transfer message:
+      <code>Ung ho ChupMark</code>.</p>
+    <figure class="qr">
+      <img src="vietqr.png" alt="VietQR code for a bank transfer to NGUYEN VIET TUAN (Nick Nguyen), account 1903 5901 0800 10, Techcombank">
+    </figure>
+    <dl class="account">
+      <dt>Bank</dt><dd>Techcombank</dd>
+      <dt>Account name</dt><dd>NGUYEN VIET TUAN (Nick Nguyen)</dd>
+      <dt>Account number</dt><dd>1903 5901 0800 10</dd>
+      <dt>Message</dt><dd>Ung ho ChupMark</dd>
+    </dl>
+    <p class="meta">Before you confirm, check that the account name shown in your banking or wallet app matches the
+      name above.</p>
+
+    <h3>International: Ko-fi</h3>
+    <p>Outside Vietnam you can support ChupMark on Ko-fi. Payments are processed by Ko-fi and paid out to the developer
+      via PayPal, under the terms and privacy policies of Ko-fi and PayPal.</p>
+    <p><a class="button" href="https://ko-fi.com/chupmark" rel="noopener noreferrer">Support on Ko-fi</a></p>
+
+    <h3>Please note</h3>
+    <ul>
+      <li>Support is entirely <strong>voluntary</strong>. ChupMark stays free and fully featured whether or not you
+        contribute, and the app never asks you to.</li>
+      <li>Support <strong>unlocks nothing</strong>: no features, no badges, no themes, no digital goods in return.</li>
+      <li>This is not a charity and not a donation to an organisation. The money goes to the
+        <strong>individual developer, Nick Nguyen</strong>, not to Microsoft; Microsoft is not involved in it.</li>
+      <li>Contributions are not tax-deductible.</li>
+      <li>The ChupMark app itself never connects to the internet: the &ldquo;Support ChupMark&rdquo; button on its About
+        page only opens this page in your browser. This page uses no scripts, cookies or trackers.</li>
+    </ul>
+
+    <h3>Contact</h3>
+    <p>Questions: <a href="mailto:imucyou@gmail.com">imucyou@gmail.com</a> &middot;
+      <a href="../">ChupMark privacy policy</a></p>
+  </section>
+</main>
+
+<footer>
+  <p>ChupMark &middot; Ứng dụng chụp, chú thích và quay màn hình miễn phí, chạy offline cho Windows &middot;
+    Free, offline screenshot, annotation and screen recording for Windows.</p>
+</footer>
+</body>
+</html>
